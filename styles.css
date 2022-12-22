@@ -4,13 +4,10 @@
     box-sizing: border-box;
 }
 
-ul {
- list-style: none;
-}
 body {
     background-image: url(https://static-cdn.jtvnw.net/jtv_user_pictures/9b9e133c-5fd8-4f18-9766-8f59b197eb1c-profile_banner-480.jpeg);
     background-position: top center;
-    background-size: 100% auto;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: #030307;
 }
@@ -92,7 +89,10 @@ section p {
 section ul {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     gap: 16px;
+    list-style: none;
 
     margin-top: 24px;
 }
